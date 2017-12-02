@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "target": "es2016",
+      "module": "commonjs",
+      "outDir": "dist", // this is ignored by gulp but required for phpStorm compilation - the gulp output dir
+                        //   is configured in
+      "sourceMap": true
+    },
+    "files": [
+      "./node_modules/@types/node/index.d.ts"
+    ],
+    "include": [
+      "src/**/*.ts"
+    ],
+    "exclude": [
+      "node_modules",
+      "src/**/*.spec.ts"
+    ]
+  }
